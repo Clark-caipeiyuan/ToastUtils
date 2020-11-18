@@ -19,6 +19,8 @@ public class ToastInitializer {
     public static void initializer(Context context) {
         if (null != context) {
             appContext = context;
+            CrashHandler myCrashHandler = CrashHandler.getInstance();
+            myCrashHandler.init(appContext);
         }
     }
 
