@@ -20,7 +20,7 @@ public class ToastInitializer {
         if (null != context) {
             appContext = context;
             CrashHandler myCrashHandler = CrashHandler.getInstance();
-            myCrashHandler.init(appContext);
+            myCrashHandler.init(appContext);  //初始化log
         }
     }
 

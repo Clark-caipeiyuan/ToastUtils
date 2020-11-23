@@ -13,7 +13,7 @@ import android.content.pm.PackageInfo;
 
 /**
  * @ClassName: DebugUtils
- * @Description: java类作用描述
+ * @Description: 判断当前应用是否是debug包
  * @Author: Administrator
  * @Date: 2020/11/23 0023 19:10
  */

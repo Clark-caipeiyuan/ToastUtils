@@ -13,7 +13,7 @@ import android.util.Log;
 
 /**
  * @ClassName: LogUtils
- * @Description: java类作用描述
+ * @Description: Log的自定义封装
  * @Author: Administrator
  * @Date: 2020/11/23 0023 18:56
  */
