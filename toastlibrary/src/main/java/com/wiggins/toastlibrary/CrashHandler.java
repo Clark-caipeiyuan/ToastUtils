@@ -86,6 +86,7 @@ public class CrashHandler implements Thread.UncaughtExceptionHandler {
         mDefaultHandler = Thread.getDefaultUncaughtExceptionHandler();
         //设置该CrashHandler为程序的默认处理器
         Thread.setDefaultUncaughtExceptionHandler(this);
+        LogUtils.initLog(context);
     }
 
     /**
