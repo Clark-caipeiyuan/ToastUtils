@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Toast-master.iml" filepath="$PROJECT_DIR$/.idea/modules/Toast-master.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Toast-master.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Toast-master.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/toastlibrary/Toast-master.toastlibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/toastlibrary/Toast-master.toastlibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ToastUtils.iml" filepath="$PROJECT_DIR$/.idea/modules/ToastUtils.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ToastUtils.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ToastUtils.app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/toastlibrary/ToastUtils.toastlibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/toastlibrary/ToastUtils.toastlibrary.iml" />
