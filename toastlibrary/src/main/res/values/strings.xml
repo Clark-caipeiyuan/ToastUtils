@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ToastLibrary</string>
+    <string name="dialog_protocol_title">测试数据</string>
+    <string name="diaolog_protocol_content">测试内容</string>
 </resources>

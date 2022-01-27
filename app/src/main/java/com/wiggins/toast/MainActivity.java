@@ -1,10 +1,12 @@
 package com.wiggins.toast;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
 import com.wiggins.toast.base.BaseActivity;
+import com.wiggins.toastlibrary.TestActivity;
 import com.wiggins.toastlibrary.ToastUtil;
 
 public class MainActivity extends BaseActivity implements View.OnClickListener {
@@ -33,6 +35,8 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         switch (v.getId()) {
             case R.id.tv_toast:
                 ToastUtil.showText("骗你的啦！！！");
+                Intent intent=new Intent(MainActivity.this, TestActivity.class);
+                startActivity(intent);
                 break;
         }
     }
